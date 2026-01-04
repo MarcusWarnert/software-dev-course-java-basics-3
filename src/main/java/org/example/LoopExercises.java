@@ -16,7 +16,7 @@ public class LoopExercises {
 
         while (counter <= n) {
             sum += counter;
-            if (sum == 2) {
+            if ((sum & 2) == 0) {
                 break;
             }
             counter++;
